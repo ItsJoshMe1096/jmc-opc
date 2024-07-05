@@ -1,0 +1,187 @@
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 42px;
+}
+p {
+    color: #666;
+    text-align: center;
+}
+.chakra-petch-light {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .chakra-petch-regular {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .chakra-petch-medium {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .chakra-petch-semibold {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .chakra-petch-bold {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .chakra-petch-light-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .chakra-petch-regular-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .chakra-petch-medium-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .chakra-petch-semibold-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .chakra-petch-bold-italic {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.main-header {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    background: #1b1c2dd6;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  }
+  .site-logo {
+    width: 10rem;
+  }
+  .topnav {
+    margin: 0 5rem;
+  }
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav .nav-menu {
+    display: none;
+    position: absolute;
+    right: 7.5rem;
+  bottom: -6rem;    
+    background: #1b1c2d;
+    width: 30%;
+    padding: 0.5rem 0;
+}
+/* Style navigation menu links */
+.menu-item {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+/* Style the hamburger menu */
+.icon {
+    background: #1b1c2d;
+    display: block;
+    position: absolute;
+    right: 5rem;
+  top: 50%;
+  width: 38px;
+  text-align: center;
+  padding: 8px 0;
+  color: #fff;
+  transform: translateY(-50%);  
+}
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.main-content {
+    padding-top: 10.2rem;
+    background-image: url('background.jpg');
+    background-position: center;
+  }
+  .hero-section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 8rem 4rem;
+  }
+  .hero-description{
+    padding: 4rem 2rem;
+  width: 40%;
+  background: #fffc;
+  border-radius: 20px;
+  }
+.cta-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.form-container {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start off-screen */
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    transition: right 0.5s ease; /* Slide transition */
+}
+/* Show the form when active */
+.form-container.active {
+    right: 0;
+}
+.main-footer {
+    padding: 1.5rem 5rem;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 92vw;
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Web Design Services</title>
+</head>
+<body>
+    <header class="main-header">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <div class="logo-container">
+                <a href="#home"><img src="site-logo.png" alt="" class="site-logo"></a>
+            </div>
+            <!-- Navigation links (hidden by default) -->
+            <div class="nav-menu" id="myLinks">
+                <a class="menu-item" href="#news">News</a>
+                <a class="menu-item" href="#contact">Contact</a>
+                <a class="menu-item" href="#about">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a id="menuTrigger" href="javascript:void(0);" class="icon" onclick="toggleMenu();replaceElement()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <article class="main-content">
+        <section class="hero-section">
+            <div class="hero-description">
+                <h1>Welcome to JMC-OPC!</h1>
+                <p>My name is Josh, I provide various online services from Web Development to Technical Support, administrative tasks, and I can also make you a cup of coffee to begin with! How can I help you today?</p>
+                <a href="#" id="showForm" class="cta-button">Get Started</a>
+                <div class="form-container">
+                    <form>
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="hobbies-section">
+            <div class="gallery">
+                
+            </div>
+        </section>
+    </article>
+    <footer class="main-footer">
+        <div class="copyright-container light-text">&copy;2024 All Rights Reserved</div>
+        <div class="privacy-policy-container"><a href="#" class="privacy-policy light-text">Privacy Policy</a></div>
+    </footer>
+</body>
+</html>
